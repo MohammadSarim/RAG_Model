@@ -51,7 +51,7 @@ def get_llm():
     model="llama-3.1-70b-versatile",
     max_tokens=512,
     temperature=0,
-    groq_api_key = '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'
+    groq_api_key = 'You ChatGroq Api Key'
 )
 
     return llm

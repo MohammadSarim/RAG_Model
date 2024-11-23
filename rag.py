@@ -6,7 +6,7 @@ import streamlit as st
 llm = ChatGroq(
     model="llama-3.1-70b-versatile",
     temperature=0,
-    groq_api_key = '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'
+    groq_api_key = 'Your ChatGroq Api key'
 )
 
 def my_chatbot(language, user_text):
